@@ -27,5 +27,3 @@ password of the current level but i didnt got the password or any private key fo
 then i found out that since the password is starting with letter k the server is thinking it as an 
 interactive command like e for exit q for quit so i have used -quite flag to think as an message and 
 not as an interactive command and i got an private key which i have used to open the next level.
-
-Bandit level 17-18
