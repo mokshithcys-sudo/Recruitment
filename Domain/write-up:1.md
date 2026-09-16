@@ -5,5 +5,5 @@ Then, I installed apache2 and mysql-server in my terminal. Then, I installed PHP
 Next, I started MySQL and created a standard database. Then, I created a directory at /var/www/html/lamp_project/uploads. After configuring the database connection and Apache settings, I tested whether the localhost was working.
 
 After that, I started learning HTML and PHP to create web pages. I tested different code snippets and learned various concepts using HTML and PHP.
+i am still working on learning the thing which required for creating the website.
 
-Finally, i have written the code required for creating the database, connecting to the database, a registration page, a login page, a profile page, a logout page, a dashboard page, and an admin page.
