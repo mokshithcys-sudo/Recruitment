@@ -1,2 +1,12 @@
 Intro to commands:
+In this level after entering the command i got my flag.
+The flag is pwn.college{8ZGENTU2zM_DA42eeaCsHgrufzR.QX3YjM1wiM3UDNwIzW}
+
+Intro to arguments:
+In this level after adding an argument hackers i got my flag.
+The flag is pwn.college{YUZD5eDJOhof_uvmzEKEqqVApXF.QX4YjM1wiM3UDNwIzW}
+
+Command history:
+In this level after entering the command history i got my flag.
+The flag is pwn.college{QyJlOgIhPq_A4agjkoC0boGQFi4.0lNzEzNxwiM3UDNwIzW}
 
