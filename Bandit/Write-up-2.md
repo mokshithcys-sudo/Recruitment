@@ -4,7 +4,7 @@ and used cat command to display it \
 The password is PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
 
 ## Bandit level 2->3
-I have found the password from --spaces in this filename-- file using " " function\
+I have found the password from --spaces in this filename-- file using " " function \
 and i have used cat command to display it \
 The password is 7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME
 
@@ -12,7 +12,7 @@ The password is 7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME
 I have used ls command to see what all directory present in there \
 and i have used cd command to go into inhere directory \
 and i have used ls -la command to see the hidden files \
-and i have used cat ./...Hiding-From-You command to display the password\
+and i have used cat ./...Hiding-From-You command to display the password \
 The password is xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq
 
 ## Bandit level 4->5
@@ -21,9 +21,9 @@ then i found the password in -file07 file \
 The password is 6C7h9GD8M6ai5nr7wo1RonrzFjj9yIrG
 
 ## Bandit level 5->6
-I have opened inhere directory using cd command and after seeing many directories\ 
+I have opened inhere directory using cd command and after seeing many directories \ 
 i have decided to use find command and found the password \
-the command i have used is find . -type readable -size 1033c ! -executable\
+the command i have used is find . -type readable -size 1033c ! -executable \
 here 1033c means 1033 bytes of word \
 and i have found it in directory maybehere07 in that .file2 file \
 and i have used cat command to display it  \
@@ -39,7 +39,7 @@ The password is Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3
 
 ## Bandit level 7->8
 First i have used ls command cat data.txt command \
-but upon seeing massive data i gave decided to use grep command to find the line\ 
+but upon seeing massive data i gave decided to use grep command to find the line \ 
 the command syntax is grep "millionth" data.txt \
 The password is VR1ljMayciFxbnUokuQmJFw6QC9VKtub
 
