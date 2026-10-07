@@ -9,7 +9,7 @@ and i have used cat command to display it \
 The password is 7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME
 
 ## Bandit level 3->4
-If i have used ls command to see what all directory present in there \
+I have used ls command to see what all directory present in there \
 and i have used cd command to go into inhere directory\
 and i have used ls -la command to see the hidden files \
 and i have used cat ./...Hiding-From-You command to display the password\
