@@ -7,7 +7,7 @@ Next, I started MySQL and created a standard database. \
 Then, I created a directory at /var/www/html/lamp_project/uploads.
 
 After configuring the database connection and Apache settings, I tested whether the localhost was working.\
-After that, I started learning HTML and PHP to create web pages.\
+After that, I started learning HTML and PHP to create web pages.
 
 I tested different code snippets and learned various concepts using HTML and PHP. \
 i am still working on learning the thing which required for creating the website.
