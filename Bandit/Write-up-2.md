@@ -16,12 +16,12 @@ And i have used cat ./...Hiding-From-You command to display the password \
 The password is xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq
 
 ## Bandit level 4->5
-Firstly i have opened inhere directory useing cd command and checked every file \ 
-Ahen i found the password in -file07 file \
+Firstly i have opened inhere directory useing cd command and checked every file  
+Ahen i found the password in -file07 file  
 The password is 6C7h9GD8M6ai5nr7wo1RonrzFjj9yIrG
 
 ## Bandit level 5->6
-I have opened inhere directory using cd command and after seeing many directories \ 
+I have opened inhere directory using cd command and after seeing many directories \
 I have decided to use find command and found the password \
 The command i have used is find . -type readable -size 1033c ! -executable \
 Here 1033c means 1033 bytes of word \
@@ -30,7 +30,7 @@ And i have used cat command to display it  \
 The password is pXa26xhMWaC2SvDotA4r9EgZkulOeSBW
 
 ## Bandit level 6->7
-I have opened inhere directory using cd command and after seeing many directories \ 
+I have opened inhere directory using cd command and after seeing many directories \
 I have decided to use find command and found the password \
 The command i have used is find / -user bandit7 -group bandit6 -size 33c ! -executable \
 Here 33c means 33 bytes of word \
@@ -39,7 +39,7 @@ The password is Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3
 
 ## Bandit level 7->8
 First i have used ls command cat data.txt command \
-But upon seeing massive data i gave decided to use grep command to find the line \ 
+But upon seeing massive data i gave decided to use grep command to find the line \
 The command syntax is grep "millionth" data.txt \
 The password is VR1ljMayciFxbnUokuQmJFw6QC9VKtub
 
