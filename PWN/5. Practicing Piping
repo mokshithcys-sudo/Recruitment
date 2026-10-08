@@ -1,1 +1,28 @@
+## Redirecting output
+In this level we need to redirect the output to get our flag.\
+The command i used here is echo PWN > COLLEGE here > used to\
+redirect the out put of PWN to COLLEGE and i got my flag.\
+The flag is pwn.college{8IUT2ypzl8qEWC00AHyyBCw8Oky.QX0YTN0wiM3UDNwIzW}
 
+## Redirecting more output
+Here in this level we can learn that we can redirect the output of any commands.\
+The command i used here is /challenge/run > myflag and i got my flag.\
+Then i used cat command to read the flag from myflag file.\
+The flag is pwn.college{gh2G0VO4H6e9MgJAaAxSMdqHi3A.QX1YTN0wiM3UDNwIzW}
+
+## Appending output
+In this level we need to redirect using append method that is >>.
+The command i used is /challenge/run >> /home/hacker/the-flag.\
+Then i used cat command to read the flag in the file the-flag.\
+The flag is pwn.college{ICRyPpaM4u2hhilOqgSB8v_1y8E.QX3ATO0wiM3UDNwIzW}
+
+## Redirecting errors
+In this level we need to redirect two outputs to two different locations.\
+Here we can use the > and 2> method, in this case one output is redirected \
+to the file mentioned after > and  the other output to the file mentioned after 2>\
+The command i used here is /challenge/run > myflag 2> instructions, here flag is \
+redirected to myflag and error is redirected to the file instructions.\
+And i used cat myflag to get the flag.\
+The flag is pwn.college{gcTqb6arA3vvF5m1E_qpdJT8KNC.QX3YTN0wiM3UDNwIzW}
+
+## Redirecting input
