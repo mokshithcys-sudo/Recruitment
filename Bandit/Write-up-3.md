@@ -11,6 +11,6 @@ Firstly i have created a temporary directory and a file temp.txt to work on in /
 then i have copied the contents in data.txt to a temporary file in /temp directory which i have created\
 then first thing i have did is to convert the hexa dump file to normal using command **xxd -r temp.txt > data**\
 and i found the file type of the file data then i found out it is a gzip file then i have converted it\
-into .gz file and then i have decompressed it using command gzip -d file.gz\
+into .gz file and then i have decompressed it using command **gzip -d file.gz**\
 upon repeted decompression using **gzip -d** , **bzip2 -d** and **tar xf** i have found the password\
 The password is **qQYQiHOBPR8zR61qxYqX45quvihF2uzk**
