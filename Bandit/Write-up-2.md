@@ -1,60 +1,63 @@
 ## Bandit level 1->2 
 I have found the password from - file using ./ preffix \
 And used cat command to display it \
-The password is PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
+The command i used is **cat ./-** \
+The password is **PK8fYLZg2hnHSz83plBL1iEPKdD3QToB**
 
 ## Bandit level 2->3
 I have found the password from --spaces in this filename-- file using " " function \
 And i have used cat command to display it \
-The password is 7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME
+The command i used here is **cat "--spaces in this filename--** \
+The password is **7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME**
 
 ## Bandit level 3->4
 I have used ls command to see what all directory present in there \
 And i have used cd command to go into inhere directory \
 And i have used ls -la command to see the hidden files \
-And i have used cat ./...Hiding-From-You command to display the password \
-The password is xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq
+And The command i used is **cat ./...Hiding-From-You** to display the password \
+The password is **xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq**
 
 ## Bandit level 4->5
 Firstly i have opened inhere directory useing cd command and checked every file  
 Ahen i found the password in -file07 file  
-The password is 6C7h9GD8M6ai5nr7wo1RonrzFjj9yIrG
+The password is **6C7h9GD8M6ai5nr7wo1RonrzFjj9yIrG**
 
 ## Bandit level 5->6
 I have opened inhere directory using cd command and after seeing many directories \
 I have decided to use find command and found the password \
-The command i have used is find . -type readable -size 1033c ! -executable \
+The command i have used is **find . -type readable -size 1033c ! -executable** \
 Here 1033c means 1033 bytes of word \
 And i have found it in directory maybehere07 in that .file2 file \
 And i have used cat command to display it  \
-The password is pXa26xhMWaC2SvDotA4r9EgZkulOeSBW
+The password is **pXa26xhMWaC2SvDotA4r9EgZkulOeSBW**
 
 ## Bandit level 6->7
 I have opened inhere directory using cd command and after seeing many directories \
 I have decided to use find command and found the password \
-The command i have used is find / -user bandit7 -group bandit6 -size 33c ! -executable \
+The command i have used is **find / -user bandit7 -group bandit6 -size 33c ! -executable** \
 Here 33c means 33 bytes of word \
 And i have used cat command to display it \
-The password is Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3
+The password is **Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3**
 
 ## Bandit level 7->8
 First i have used ls command cat data.txt command \
 But upon seeing massive data i gave decided to use grep command to find the line \
-The command syntax is grep "millionth" data.txt \
-The password is VR1ljMayciFxbnUokuQmJFw6QC9VKtub
+The command syntax is **grep "millionth" data.txt** \
+The password is **VR1ljMayciFxbnUokuQmJFw6QC9VKtub**
 
 ## Bandit level 8->9
 Also here i have used the sort command to find the unique line using the command \
-sort data.txt | uniq -u \
-The password is EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl
+**sort data.txt | uniq -u** \
+The password is **EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl**
 
 ## Bandit level 9->10
 Firstly i have displayed the data.txt file using the cat command \
 And just by seeing the contents i have found the password \
-The password is B0s2khmbT9u0geKuOoVGW3JZKhndE3BG
+The command we can use here is **strings data.txt**\
+The password is **B0s2khmbT9u0geKuOoVGW3JZKhndE3BG**
 
 ## Bandit level 11->12
 Firstly i have displayed the file contets of data.txt using cat command and copied the \
 Base 64 script, using an online base64 decoder i have decoded the script \
-We can also use the command base64  -d "script" to decode it \
-The password is pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro
+We can also use the command **base64 -d "script"** to decode it \
+The password is **pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro**
