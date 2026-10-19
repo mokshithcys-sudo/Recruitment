@@ -21,7 +21,7 @@ try {
         [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION, //This code throws errors on failure
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC, //This will get the rows as an associative arrays.
-            PDO::ATTR_EMULATE_PREPARES => false //
+            PDO::ATTR_EMULATE_PREPARES => false // This code will tell the mysql to usenative prepared statments.
         ]
     );
 } catch (PDOException $e) {
