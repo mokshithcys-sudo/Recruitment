@@ -10,4 +10,5 @@ After configuring the database connection and Apache settings, I tested whether 
 After that, I started learning HTML and PHP to create web pages.
 
 I tested different code snippets and learned various concepts using HTML and PHP. \
-i am still working on learning the thing which required for creating the website.
+I got the required code from the website geeksforgeeks.org and i have modified according to my requirement.\
+I have also added the feature to set there own profile pic also.\
