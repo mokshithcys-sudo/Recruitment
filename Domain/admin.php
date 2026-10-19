@@ -13,8 +13,6 @@ if (($_SESSION['role'] ?? '') !== 'admin') {
 
 $error = '';
 
-// Keep the original self-delete protection. For a production application,
-// change deletion to POST with a CSRF token rather than a GET link.
 if (isset($_GET['delete_id'])) {
     $deleteId = filter_input(INPUT_GET, 'delete_id', FILTER_VALIDATE_INT);
 
