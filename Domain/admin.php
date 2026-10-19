@@ -118,11 +118,12 @@ $users = $stmt->fetchAll();
                            onclick="return confirm('Are you sure you want to delete this user?');">Delete</a>
                     
                     <?php else: ?>
-                        <!--  -->
+                        <!-- This code will display the currently which admin acc is logged in -->
                         <i>Your Account</i>
                     <?php endif; ?>
                 </td>
             </tr>
+        <!-- This line will finish the looping through the users-->
         <?php endforeach; ?>
         </tbody>
     </table>
