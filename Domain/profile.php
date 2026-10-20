@@ -189,11 +189,18 @@ if (!$user) {
     exit;
 }
 
+// This code will get the users profile pic and if it is not there it will leave it empty
 $profilePic = $user['profile_pic'] ?? '';
+
+//This code will creat a url to display the profile pic and it will only creat when it is not empty
 $profilePicUrl = ($profilePic !== '' && $profilePic !== 'default.png')
+
+    // Here basename() removes directory components from the filename.
+    // And rawurlencode() safely encodes the filename for use in a URL.
     ? 'uploads/' . rawurlencode(basename($profilePic))
     : '';
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -203,31 +210,51 @@ $profilePicUrl = ($profilePic !== '' && $profilePic !== 'default.png')
 </head>
 <body>
     <h2>My Profile</h2>
+
+    <!-- Display the user's role.
+         htmlspecialchars() escapes special HTML characters.
+         (string) converts the role value to a string. -->
     <p>Role: <strong><?= htmlspecialchars((string) $user['role'], ENT_QUOTES, 'UTF-8') ?></strong></p>
 
     <nav>
+
+        <!-- Link to the user's profile page. -->
         <a href="profile.php">My Profile</a> |
+
+        <!-- This will display the Admin Panel link only for admin users. -->
         <?php if (($user['role'] ?? '') === 'admin'): ?>
             <a href="admin.php">Admin Panel</a> |
         <?php endif; ?>
+
+        <!-- This will link to the logout script. -->
         <a href="logout.php">Logout</a>
     </nav>
     <hr>
 
+    <!-- This will display any message from above code -->
     <?php if ($message !== ''): ?>
         <p style="color: green;"><?= htmlspecialchars($message, ENT_QUOTES, 'UTF-8') ?></p>
     <?php endif; ?>
+
+    <!-- This will display any error happned -->
     <?php if ($error !== ''): ?>
         <p style="color: red;"><?= htmlspecialchars($error, ENT_QUOTES, 'UTF-8') ?></p>
     <?php endif; ?>
 
+    <!-- This code will display the profile picture if a valid URL was constructed. -->
     <?php if ($profilePicUrl !== ''): ?>
         <img src="<?= htmlspecialchars($profilePicUrl, ENT_QUOTES, 'UTF-8') ?>"
              alt="Profile picture" width="100" height="100">
+    
     <?php else: ?>
+        <!-- This message will be displayed if there is no custome profile picture -->
         <p>No profile picture uploaded.</p>
+    
     <?php endif; ?>
 
+        <!-- This will create the profile-update form.
+         POST sends the submitted data to profile.php.
+         multipart/form-data is required for file uploads. -->
     <form method="POST" action="profile.php" enctype="multipart/form-data">
         <h3>Update Details</h3>
 
@@ -253,6 +280,8 @@ $profilePicUrl = ($profilePic !== '' && $profilePic !== 'default.png')
         </label>
         <br><br>
 
+        <!-- If a user want to update any of his credentials he can enter them and 
+            and will click on this submit button to update them-->
         <button type="submit">Update Profile</button>
     </form>
 </body>
