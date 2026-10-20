@@ -16,7 +16,7 @@ The password for natas2 is **vsDOxoXyq3wckCP1ZmTZ71ngIA606odB**
 ## Level 1->2
 In this level also i have used the same method to find the flag.\
 That is ctr + shift + I to unlock the developer option and check for it.\
-There i saw a image file whose source is like files/pixel.org\
+There i saw a image file whose source is like files/pixel.org \
 Which means there is a files folder where somthing can be stored\
 But i dint find any other files in the files folder so i have changed the url a bit\
 That is http://natas2.natas.labs.overthewire.org/files/ and i found a txtt file named users.txt.\
