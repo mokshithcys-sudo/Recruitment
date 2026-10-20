@@ -24,7 +24,7 @@ And found the password for natas3 **K30JrSRHzjxq3paUQuwozY4MNvmNFyhI**
 
 ## Level 2->3
 After logging in i opened the developer tools and found a clue that\
-<!-- No more information leaks!! Not even Google will find it this time... -->
+No more information leaks!! Not even Google will find it this time...\
 Here this clue means Google uses crawlers, and websites commonly use robots.txt to give crawlers instructions.\
 So after modifing the url a bit thaat is http://natas3.natas.labs.overthewire.org/robots.txt\
 I got another clue that is User-agent: * Disallow: /s3cr3t/ which means\
