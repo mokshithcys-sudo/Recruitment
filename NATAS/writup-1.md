@@ -31,3 +31,5 @@ I got another clue that is User-agent: * Disallow: /s3cr3t/ which means\
 there can be somthing in that folder\
 and i have used url http://natas3.natas.labs.overthewire.org/robots.txt to get the password.\
 The password for natas4 is **JDrPnuZAKyl6MkiqQGFIddrqpvgOASth**
+
+## Level 3->4
