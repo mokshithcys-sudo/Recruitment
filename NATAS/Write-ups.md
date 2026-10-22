@@ -31,3 +31,12 @@ I got another clue that is User-agent: * Disallow: /s3cr3t/ which means\
 there can be somthing in that folder\
 and i have used url http://natas3.natas.labs.overthewire.org/robots.txt to get the password.\
 The password for natas4 is **JDrPnuZAKyl6MkiqQGFIddrqpvgOASth**
+
+## Level 3->4
+In this level the main gole is to change the responce header and by doing that we can get our flag\
+So first i opened the developer page and went to network page and checked the header option.\
+There i find **Referer: http://natas4.natas.labs.overthewire.org/** and i have sent a new request.\
+In that request i modified the referer to natas5 and checked the responce and i got my flag.\
+The password for natas5 is e4z2Noy3oqwPJUWzJH0dseN67Cn1sy2M
+
+## Level 4->5
