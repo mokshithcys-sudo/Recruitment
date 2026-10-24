@@ -49,11 +49,15 @@ First i wrote some code in a python
 The code is :\
 ```
 import requests
-url = "http://challenge.localhost/qualify
-response = requests.get(url)
-print(response.text)
-\
 
+url = "http://challenge.localhost/qualify
+
+response = requests.get(url)
+
+print(response.text)
+```
+Here .get will get send the get request and .text will give all the\ 
+Text lines present the response received by that get request.\
 The flag is pwn.college{YF_OOWLWiNbOiUAqgiWj4PaJ1XM.QX2cjMzwCMwQjN0IzW}
 
 
