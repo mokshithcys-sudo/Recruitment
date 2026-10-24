@@ -46,7 +46,7 @@ The flag is pwn.college{gMfVIE8DgrRBoK_zeOqFsrYSbjq.QX0cjMzwCMwQjN0IzW}
 In this level we need to send the same get request but using python\
 Here i used requests library to send the get request and .text to print the text which we get\
 First i wrote some code in a python 
-The code is :\
+The code is :
 ```
 import requests
 
@@ -60,5 +60,22 @@ Here .get will get send the get request and .text will give all the\
 Text lines present the response received by that get request.\
 The flag is pwn.college{YF_OOWLWiNbOiUAqgiWj4PaJ1XM.QX2cjMzwCMwQjN0IzW}
 
+## HTTP Host header Python
+In this level we need to change a header using python and we need to send it as a get request\
+First we need to find the path from the source code of /challenge/server not only that \
+Not only that but we will also get the information about the changes we need to do in the header\
+That is **app.config["SERVER_NAME"] = "net-force.nl:80"** which means i need to change the host to\
+**net-force.nl** and we need to do that using python the code i used here is :
+```
+import requests
 
-   
+response = requests.get(
+    "http://challenge.localhost/mission",
+    headers={"Host": "net-force.nl:80"}
+)
+
+print(response.text)
+```
+Here **requests.get** command will overwrite the host header and \
+Ffter running the python file i got the flag\
+The Flag is pwn.college{o7HmCzP8f_eu6xydj85BA7c3xq8.QXzcjMzwCMwQjN0IzW}
