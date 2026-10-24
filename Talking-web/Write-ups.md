@@ -22,3 +22,26 @@ For that wee need to go to the network options in the developer tools and i got 
 The flag is **pwn.college{41fHbGtywTz03PpbxUbZZWbXbKu.0VNxgDNxwCMwQjN0IzW}**
 
 ## HTTP Netcat
+In this we need to send a GET request to the local host and get our flag\
+For that we can use nc or netcat command to make connection to the local host and can send a request\
+First i used the **ip a** command to get the ip address of the localhost and then i used nc command to 
+Send a GET request that is **nc -v 127.0.0.1 80** Then i sent the request\
+GET / HTTP/1.1 Host: http://challenge.localhost/ and i got my flag\
+The flag is pwn.college{cEDM2GSScY_p1680NwveVT0YT3Z.QX5YjMzwCMwQjN0IzW}
+
+## HTTP Paths (netcat)
+In this level we need to use the same method as the before level but we need\
+To send the request to a different path which we can get in the /challenge/server in the browser\
+The modified get request is **GET /task HTTP/1.1 Host: challenge.localhost** and i got my flag\
+The flag is pwn.college{4MocK_lalP8J0mD5qaXEy0urJwi.QX1cjMzwCMwQjN0IzW}
+
+## HTTP Curl
+In this level we need to send a get request using curl which is default attribute of curl command\
+But before that we need to get the specified path to send the get request, we can get that path \
+By checking the source code of /challenge/server and i got my path **/mission** and then 
+I used the command curl http://challenge.localhost/mission to get the flag\
+The flag is pwn.college{gMfVIE8DgrRBoK_zeOqFsrYSbjq.QX0cjMzwCMwQjN0IzW}
+
+## HTTP Python
+In this level we need to 
+The flag is 
