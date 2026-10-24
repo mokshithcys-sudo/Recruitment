@@ -2,7 +2,8 @@
 In this level wee need to start a server in the GUI desktop.\
 For starting that we need to use the command /challenge/server\
 And we will get a url and we need to copy and past it in a browser in the GUI\
-And i got my flag that is **pwn.college{MsZ98CIx_WQDuu8daGdjTnlTP0K.0lMxgDNxwCMwQjN0IzW}**
+And i got my flag that is 
+### pwn.college{MsZ98CIx_WQDuu8daGdjTnlTP0K.0lMxgDNxwCMwQjN0IzW}
 
 ## Reading Flask
 In this level we need to get a path so that we can find the flag.\
