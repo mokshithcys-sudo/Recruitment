@@ -56,3 +56,8 @@ The code is :\
 
 First i wrote some code in a python  
 The flag is pwn.college{YF_OOWLWiNbOiUAqgiWj4PaJ1XM.QX2cjMzwCMwQjN0IzW}
+
+
+```text
+This is a box made with code blocks.
+It works everywhere.   
