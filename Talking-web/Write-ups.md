@@ -45,7 +45,7 @@ The flag is pwn.college{gMfVIE8DgrRBoK_zeOqFsrYSbjq.QX0cjMzwCMwQjN0IzW}
 ## HTTP Python
 In this level we need to send the same get request but using python\
 Here i used requests library to send the get request and .text to print the text which we get\
-The code is :
+The code is :\
   '''import requests
 
   url = "http://challenge.localhost/qualify"
