@@ -51,7 +51,6 @@ import requests
 url = "http://challenge.localhost/qualify
 response = requests.get(url)
 print(response.text)
----
 
 First i wrote some code in a python  
 The flag is pwn.college{YF_OOWLWiNbOiUAqgiWj4PaJ1XM.QX2cjMzwCMwQjN0IzW}
