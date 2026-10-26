@@ -29,14 +29,14 @@ That is from source application to destination application\
 Examples: TCP, UDP
 ```
 
-## 3. Network layer
+### 3. Network layer
 ```
 This layer handels logical addressing and routing.\
 This layer uses IP address for locating.\
 Examples: IP, ICMP
 ```
 
-## 2. Datalink layer
+### 2. Datalink layer
 ```
 This layer transfers frames of data within a local network\
 Here local network can be LAN and Internet.\
@@ -44,7 +44,7 @@ This layer uses MAC(Media Acess Control) address for transporting\
 Examples: Wi-Fi, Ethernet
 ```
 
-## 1. Physical layer
+### 1. Physical layer
 ```
 This layer handels all the physical cables used for transmiting data\
 It can be optic cables, copper wires and radio signals.
