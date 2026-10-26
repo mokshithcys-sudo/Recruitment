@@ -33,7 +33,7 @@ Examples: TCP, UDP
 ```
 This layer handels logical addressing and routing.
 This layer uses IP address for locating.
-Examples: IP, ICMP
+Examples: IP, ICMP (Internet Control Message Protocol)
 ```
 
 ### 2. Datalink layer
@@ -60,11 +60,34 @@ actually communicate over the internet in real.
 ```
 Provides services for network applications.
 Layers Application, Presentation, Session of
-the OSI mode comes under this
+the OSI mode comes under this layer.
 Examples: HTTP, HTTPS, DNS, FTP
+```
+
+### 3. Transport 
+```
+This layer provides End-to-end communication and data delivery.
+Examples: TCP, UDP
+```
+
+### 2. Internet
+```
+This layer provides IP addressing and routing packets.
+Examples: IPv4, IPv6, ICMP (Internet Control Message Protocol)
+```
+
+### 1. Network Access
+```
+This layer Sends data over the local network.
+Examples: Ethernet, Wi-Fi
 ```
 
 ## IPv4 vs IPv6
 
+| Name | Age | Course |
+|------|-----|--------|
+| Rahul | 18 | CSE |
+| Arjun | 19 | Cyber Security |
+| Kiran | 18 | ECE |
 
 ## TCP Three-Way Handshake
