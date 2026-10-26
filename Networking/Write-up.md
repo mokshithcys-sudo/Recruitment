@@ -10,7 +10,7 @@ And also helps in troubleshooting network problems.
 Provides the user applications. Software applications like
 web browsers and email clients relay on this layer,
 And it is the only layer that directly interacts with the data from the users.
-Examples: HTTP,HTTPS,DNS,FTP,SMTP
+Examples: HTTP, HTTPS, DNS, FTP, SMTP, DHCP(Dynamic Host Configuration Protocol)
 ```
 
 ### 6. Presentation layer
@@ -68,37 +68,55 @@ This layer handels all the physical cables used for transmiting data
 It can be optic cables, copper wires and radio signals.
 ```
 
+### Example
+Suppose Law wants to send a email to Luffy, First Law writes his email and sends it in a \
+email application and hits `Send` His email application will pass his email to the application\
+layer which will pick a protocol to transport here that is SMTP and this data is passed to the\
+presentation layer.
+
+Now presentation layer will compress the data and then will hit the session layer, which will\
+start the communication session. And this data will go to the Transportation layer, where it\
+will be segmented, and those segments are sent to the next layer that is the Network layer and\
+broken-down even further into frames to the Data Link layer. Which will send them to the next\
+layer which is the Physical layer in the form of 1's and 0's and it will send in the means of \
+physical medium such as cables and radio signals 
+
+And the same process happens on Luffy's device in reverse direction and finaly he can read the \
+email sent to him.
+
+
 ## TCP/IP Model and its layers
 TCP or Transmission Control Protocol model explain how the devices\
 actually communicate over the internet in real.
 
 ### It has 4 layers
 
-### 4. Application
+### 4. Application Layer
 ```
 Provides services for network applications.
 Layers Application, Presentation, Session of
 the OSI mode comes under this layer.
-Examples: HTTP, HTTPS, DNS, FTP
+Examples: HTTP, HTTPS, DNS, FTP, DHCP
 ```
 
-### 3. Transport 
+### 3. Transport layer
 ```
 This layer provides End-to-end communication and data delivery.
 Examples: TCP, UDP
 ```
 
-### 2. Internet
+### 2. Internet layer
 ```
 This layer provides IP addressing and routing packets.
 Examples: IPv4, IPv6, ICMP (Internet Control Message Protocol)
 ```
 
-### 1. Network Access
+### 1. Network Access layer
 ```
 This layer Sends data over the local network.
 Examples: Ethernet, Wi-Fi
 ```
+
 
 ## IPv4 vs IPv6
 
