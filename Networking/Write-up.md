@@ -1,30 +1,42 @@
 ## OSI Model and its layers
 OSI or Open systems interconnection model is a conceptual model that \
-Explains the process in which a data is transported through the network
+Explains the process in which a data is transported through the network\
+And also helps in troubleshooting network problems.
 
 ### It has 7 layers
 
-### 7. Aplication layer
+### 7. Application layer
 ```
-Provides the user applications.
+Provides the user applications. Software applications like
+web browsers and email clients relay on this layer,
+And it is the only layer that directly interacts with the data from the users.
 Examples: HTTP,HTTPS,DNS,FTP,SMTP
 ```
 
 ### 6. Presentation layer
 ```
 It provides data formating, encryption and compression.
+The data is formatted such that it can be understand by the application layer
+Also it is very useful in case if two devices are using different methods
+to communicate. This layer will also compress the data sent by the application
+layer for faster transporting  
 Examples: TLS/SSL(Secure Socket Layer),ASCII
 ```
 
 ### 5. Session layer
 ```
-It handels/manages/terminates sessions
+It handles/manages/terminates sessions that is this layer is responsible
+For opening and closing of an session. And it will also ensures the session
+Will be there until the data is transferred .  
 Examples: Session managment, RPC(Remote Procedure Call)
 ```
 
 ### 4. Transport layer
 ```
 This layer provides end-to-end delivery of data and port addressing
+Between two devices, This process include breaking the data in smaller
+chunks and transporting called segments, and the transport layer on the
+receiver device is responsible for rearranging the segments 
 That is from source application to destination application
 Examples: TCP, UDP
 ```
@@ -32,6 +44,10 @@ Examples: TCP, UDP
 ### 3. Network layer
 ```
 This layer handels logical addressing and routing.
+This layer is responsible for data transfer between two different networks
+It is helpful if two devices are on different networks after that the
+Network layer breaks the data segments into smaller units called as packets
+These packets are reassembled in the network layer on the other device.
 This layer uses IP address for locating.
 Examples: IP, ICMP (Internet Control Message Protocol)
 ```
