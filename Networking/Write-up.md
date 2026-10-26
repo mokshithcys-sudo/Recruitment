@@ -103,7 +103,7 @@ digits separated by colons.
 |---|---|---|
 | Address size | 32 bits | 128 bits |
 | Address format | Decimal | Hexadecimal |
-| Example | `192.168.1.10` | `2001:db8::10` |
+| Example | 192.168.1.10 | 2001:db8::10 |
 | Address space | About 4.3 billion addresses | \(2^{128}\) addresses |
 | Header | Variable, 20–60 bytes | Fixed, 40 bytes |
 | Broadcast | Supported | Not supported |
