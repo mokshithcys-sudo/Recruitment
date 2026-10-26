@@ -1,5 +1,5 @@
 ## OSI Model and its layers
-* OSI or Open systems interconnection model is a conceptual model that \
+OSI or Open systems interconnection model is a conceptual model that \
 Explains the process in which a data is transported through the network\
 And also helps in troubleshooting network problems.
 
@@ -54,10 +54,11 @@ Examples: IP, ICMP (Internet Control Message Protocol)
 
 ### 2. Datalink layer
 ```
-This layer transfers frames of data within a local network, Similar to network layer
-it divides data more and those small units are called Frames
-Here local network can be LAN and Internet.It can also detect 
-This layer uses MAC(Media Acess Control) address for transporting
+This layer transfers frames of data within a local network, That is
+Similar to network layer it divides data more and those small units
+are called Frames Here local network can be LAN and Internet.
+It can also detect this layer uses MAC(Media Acess Control) address
+for transporting data
 Examples: Wi-Fi, Ethernet
 ```
 
