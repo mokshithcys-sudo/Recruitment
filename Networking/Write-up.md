@@ -112,3 +112,24 @@ digits separated by colons.
 
 
 ## TCP Three-Way Handshake
+
+The TCP Three-Way Handshake establishes a TCP connection \
+between a client and a server before data transfer begins.\
+After the connection is established we can start sending the data.
+
+### The process:
+
+### 1. Client -> Server
+The client sends a SYN packet to request a connection.
+
+### 2. Server -> Client
+The server acknowledges the request and sends its own \
+SYN whith a ACK packet
+
+### 3. Client -> Server
+The client acknowledges the server's response.
+And the TCP connection is established.
+
+The purpose for this three way handshake is to synchronize \
+sequence numbers and establish a reliable TCP connection \
+before data is transferred.
