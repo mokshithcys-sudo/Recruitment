@@ -54,8 +54,9 @@ Examples: IP, ICMP (Internet Control Message Protocol)
 
 ### 2. Datalink layer
 ```
-This layer transfers frames of data within a local network
-Here local network can be LAN and Internet.
+This layer transfers frames of data within a local network, Similar to network layer
+it divides data more and those small units are called Frames
+Here local network can be LAN and Internet.It can also detect 
 This layer uses MAC(Media Acess Control) address for transporting
 Examples: Wi-Fi, Ethernet
 ```
