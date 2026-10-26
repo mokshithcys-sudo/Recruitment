@@ -71,8 +71,8 @@ It can be optic cables, copper wires and radio signals.
 ### Example
 Suppose Law wants to send a email to Luffy, First Law writes his email and sends it in a \
 email application and hits `Send` His email application will pass his email to the application\
-layer which will pick a protocol to transport here that is SMTP and this data is passed to the\
-presentation layer.
+layer which will pick a protocol to transport layer here that is SMTP and this data is passed \
+to the presentation layer.
 
 Now presentation layer will compress the data and then will hit the session layer, which will\
 start the communication session. And this data will go to the Transportation layer, where it\
