@@ -84,10 +84,29 @@ Examples: Ethernet, Wi-Fi
 
 ## IPv4 vs IPv6
 
-| Name | Age | Course |
-|------|-----|--------|
-| Rahul | 18 | CSE |
-| Arjun | 19 | Cyber Security |
-| Kiran | 18 | ECE |
+### IPv4
+IPv4 is the fourth version of the Internet Protocol. It assigns \
+IP addresses to devices so that data packets can be routed \
+from a source to a destination across networks.\
+An IPv4 address uses 32 bits, divided into four \
+groups of 8 bits called octets.
+
+### IPv6
+IPv6 is the newer version of the Internet Protocol, \
+designed mainly to provide a much larger address space than IPv4.\
+An IPv6 address uses 128 bits, written as hexadecimal and \
+digits separated by colons.
+
+| Feature | IPv4 | IPv6 |
+|---|---|---|
+| Address size | 32 bits | 128 bits |
+| Address format | Decimal | Hexadecimal |
+| Example | `192.168.1.10` | `2001:db8::10` |
+| Address space | About 4.3 billion addresses | \(2^{128}\) addresses |
+| Header | Variable, 20–60 bytes | Fixed, 40 bytes |
+| Broadcast | Supported | Not supported |
+| Security | IPsec support available | IPsec support defined in the standards |
+| NAT | Commonly used | Generally less necessary |
+
 
 ## TCP Three-Way Handshake
