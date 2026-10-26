@@ -1,5 +1,5 @@
 ## OSI Model and its layers
-OSI or Open systems interconnection model is a conceptual model that \
+* OSI or Open systems interconnection model is a conceptual model that \
 Explains the process in which a data is transported through the network\
 And also helps in troubleshooting network problems.
 
