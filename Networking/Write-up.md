@@ -97,6 +97,8 @@ designed mainly to provide a much larger address space than IPv4.\
 An IPv6 address uses 128 bits, written as hexadecimal and \
 digits separated by colons.
 
+
+
 | Feature | IPv4 | IPv6 |
 |---|---|---|
 | Address size | 32 bits | 128 bits |
