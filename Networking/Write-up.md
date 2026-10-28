@@ -3,6 +3,9 @@ OSI or Open systems interconnection model is a conceptual model that \
 Explains the process in which a data is transported through the network\
 And also helps in troubleshooting network problems.
 
+<img width="692" height="724" alt="image" src="https://github.com/user-attachments/assets/de093cb5-2ff5-463c-b3b6-522b1def5cd1" />
+
+
 ### It has 7 layers
 
 ### 7. Application layer
