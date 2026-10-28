@@ -66,14 +66,14 @@ response = requests.get(url)
 
 print(response.text)
 ```
-Here .get will get send the get request and .text will give all the\ 
+Here .get will send the get request and .text will give all the\
 Text lines present the response received by that get request.
 ### The flag is pwn.college{YF_OOWLWiNbOiUAqgiWj4PaJ1XM.QX2cjMzwCMwQjN0IzW}
 
 ## HTTP Host header Python
 In this level we need to change a header using python and we need to send it as a get request\
 First we need to find the path from the source code of /challenge/server not only that \
-Not only that but we will also get the information about the changes we need to do in the header\
+But also we will also get the information about the changes we need to do in the header\
 That is **app.config["SERVER_NAME"] = "net-force.nl:80"** which means i need to change the host to\
 **net-force.nl** and we need to do that using python the code i used here is :
 ```
@@ -145,11 +145,8 @@ Connection: close
 In this level we need to use the method but by using curl command 
 The command i used is 
 ```
-curl -G 'http://challenge.localhost/hack' \
-  --data-urlencode 'pass=fjawumxb' \
-  --data-urlencode 'security_token=yaanpzkj' \
-  --data-urlencode 'security=xufooqmp'
+curl 'http://challenge.localhost/hack?pass=fjawumxb&security_token=yaanpzkj&security=xufooqmp'
 ```
-Here -G mean GET request and --data-urlencode tells to encode this paramenter to the url\
-And buy using this command i got my flag.\
+Here we use the same method as in the above level by using ? and &\
+And by using this command i got my flag.
 ### The flag is pwn.college{cxBQhGN9tibtaDrek_wK3rZbKVq.QXzgjMzwCMwQjN0IzW}
