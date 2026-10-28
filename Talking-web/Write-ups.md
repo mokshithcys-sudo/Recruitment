@@ -125,7 +125,7 @@ First i checked the source code and got the file path /gate and \
 We need to add a parameter using ? char and using nc \
 First i used **nc challenge.localhost 80** and i added the get request:
 ```
-GET /gate?unlock=pwgklefy
+GET /gate?unlock=pwgklefy HTTP/1.1
 Host: challenge.localhost
 
 ```
