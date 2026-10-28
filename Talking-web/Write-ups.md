@@ -8,18 +8,18 @@ And i got my flag
 ## Reading Flask
 In this level we need to get a path so that we can find the flag.\
 After starting the server using /challenge/server i used the same command in the same web browser \
-The i got the next path as **"\submit"** i have added it to the stranded path and i got my flag.\
+The i got the next path as **"\submit"** i have added it to the stranded path and i got my flag.
 ### The flag is pwn.college{MjMmzhe91JNPaKbdr2dEMKASH2t.01MxgDNxwCMwQjN0IzW}
 
 ## Commented Data
 In this level we need to use the same method as in the previous levels but,\
 But here the flag is hidden in a comment in the source code \
-Here i used the developer options and got the flag\
+Here i used the developer options and got the flag
 ### The flag is pwn.college{wTGzsFRwGHuPhhNxoPO26peO47T.0FNxgDNxwCMwQjN0IzW}
 
 ## HTTP Meta Data
 In this level we need to find the flag hidden in the headers location\
-For that wee need to go to the network options in the developer tools and i got the flag.\
+For that wee need to go to the network options in the developer tools and i got the flag.
 ### The flag is pwn.college{41fHbGtywTz03PpbxUbZZWbXbKu.0VNxgDNxwCMwQjN0IzW}
 
 ## HTTP Netcat
@@ -31,7 +31,7 @@ Send a GET request that is **nc -v 127.0.0.1 80** Then i sent the request\
 GET / HTTP/1.1
 Host: http://challenge.localhost/
 ```
-And i got my flag\
+And i got my flag
 ### The flag is pwn.college{cEDM2GSScY_p1680NwveVT0YT3Z.QX5YjMzwCMwQjN0IzW}
 
 ## HTTP Paths (netcat)
@@ -42,14 +42,14 @@ The modified get request is
 GET /task HTTP/1.1
 Host: challenge.localhost
 ```
-And i got my flag\
+And i got my flag
 ### The flag is pwn.college{4MocK_lalP8J0mD5qaXEy0urJwi.QX1cjMzwCMwQjN0IzW}
 
 ## HTTP Curl
 In this level we need to send a get request using curl which is default attribute of curl command\
 But before that we need to get the specified path to send the get request, we can get that path \
 By checking the source code of /challenge/server and i got my path **/mission** and then 
-I used the command **curl http://challenge.localhost/mission** to get the flag\
+I used the command **curl http://challenge.localhost/mission** to get the flag
 ### The flag is pwn.college{gMfVIE8DgrRBoK_zeOqFsrYSbjq.QX0cjMzwCMwQjN0IzW}
 
 ## HTTP Python
@@ -67,7 +67,7 @@ response = requests.get(url)
 print(response.text)
 ```
 Here .get will get send the get request and .text will give all the\ 
-Text lines present the response received by that get request.\
+Text lines present the response received by that get request.
 ### The flag is pwn.college{YF_OOWLWiNbOiUAqgiWj4PaJ1XM.QX2cjMzwCMwQjN0IzW}
 
 ## HTTP Host header Python
@@ -87,13 +87,13 @@ response = requests.get(
 print(response.text)
 ```
 Here **requests.get** command will overwrite the host header and \
-After running the python file i got the flag\
+After running the python file i got the flag
 ### The flag is pwn.college{o7HmCzP8f_eu6xydj85BA7c3xq8.QXzcjMzwCMwQjN0IzW}
 
 ## HTTP Host Header curl
 In this level we need to do the same thing as of the above level but\
 We need to use the curl command for to give the get request\
-The command i gave is **curl --header "Host:sadservers.com:80" http://challenge.localhost/entry** \
+The command i gave is **curl --header "Host:sadservers.com:80" http://challenge.localhost/entry** 
 ### The flag is pwn.college{g0rsGIAkDxOyMiU6CJcTpbf-he4.QXxcjMzwCMwQjN0IzW}
 
 ## HTTP Host Header Netcat
