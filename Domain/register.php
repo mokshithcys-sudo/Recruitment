@@ -26,6 +26,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         try {
 
             //This will convert the entered password into a hash value
+            //The PASSWORD_DEFAULT  function will convert the entered password 
+            //into hash value using CRYPT_BLOWFISH algorithm which the default one
             $hashedPassword = password_hash($plainPassword, PASSWORD_DEFAULT);
 
             //This is the sql quary to register the user and add his details into the database
