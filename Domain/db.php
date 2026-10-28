@@ -13,7 +13,7 @@ $password = "StrongPass123!";
 
 try {
     //Here this code is used to connect to mysql using PDO
-    //The PDO means PHP Data Objects, it is used to set up the connection.
+    //Here PDO means PHP Data Objects, it is used to set up the connection.
     $pdo = new PDO(
         "mysql:host=$host;dbname=$dbname;charset=utf8mb4",
         $username,
