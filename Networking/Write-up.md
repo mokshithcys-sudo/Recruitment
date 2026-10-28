@@ -92,7 +92,7 @@ email sent to him.
 TCP or Transmission Control Protocol model explain how the devices\
 actually communicate over the internet in real.
 
-[Click here](https://cheapsslsecurity.com/blog/what-is-the-tcp-model-an-exploration-of-tcp-ip-layers/)
+<img width="726" height="601" alt="image" src="https://github.com/user-attachments/assets/37bd87a4-c5e5-4ff7-b2e9-8dd0cc00c077" />
 
 ### It has 4 layers
 
@@ -156,7 +156,9 @@ digits separated by colons.
 
 The TCP Three-Way Handshake establishes a TCP connection \
 between a client and a server before data transfer begins.\
-After the connection is established we can start sending the data.
+Here the client can be between browser and a server  or \
+anywhere a TCP connection is established after the connection \
+is established we can start sending the data.
 
 ### The process:
 
