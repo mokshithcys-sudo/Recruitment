@@ -72,7 +72,7 @@ It can be optic cables, copper wires and radio signals.
 ```
 
 ### Example
-Suppose Law wants to send a email to Luffy, First Law writes his email and sends it in a \
+Suppose Law wants to send a email to Luffy, First Law writes his email and sends through an \
 email application and hits `Send` His email application will pass his email to the application\
 layer which will pick a protocol to transport layer here that is SMTP and this data is passed \
 to the presentation layer.
@@ -91,6 +91,8 @@ email sent to him.
 ## TCP/IP Model and its layers
 TCP or Transmission Control Protocol model explain how the devices\
 actually communicate over the internet in real.
+
+[Click here](url:https://cheapsslsecurity.com/blog/what-is-the-tcp-model-an-exploration-of-tcp-ip-layers/)
 
 ### It has 4 layers
 
