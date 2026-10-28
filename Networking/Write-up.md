@@ -92,7 +92,7 @@ email sent to him.
 TCP or Transmission Control Protocol model explain how the devices\
 actually communicate over the internet in real.
 
-[Click here](url:https://cheapsslsecurity.com/blog/what-is-the-tcp-model-an-exploration-of-tcp-ip-layers/)
+[Click here](https://cheapsslsecurity.com/blog/what-is-the-tcp-model-an-exploration-of-tcp-ip-layers/)
 
 ### It has 4 layers
 
