@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $stmt->execute([$username, $email, $hashedPassword]);
 
             // This will get the new users id and role from the database
-            // This is start his session on his id
+            // This will start his session on his id
             $userId = (int) $pdo->lastInsertId();
             $stmt = $pdo->prepare('SELECT id, role FROM users WHERE id = ?');
             $stmt->execute([$userId]);
