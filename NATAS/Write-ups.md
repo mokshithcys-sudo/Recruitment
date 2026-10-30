@@ -40,3 +40,11 @@ In that request i modified the referer to natas5 and checked the responce and i 
 The password for natas5 is e4z2Noy3oqwPJUWzJH0dseN67Cn1sy2M
 
 ## Level 4->5
+In this we need to know about **cookies** and their Manipulation\
+So in short cookie is a small piece of data that a website stores \
+in your browser to remember information about you.\
+So we need to change it in this level so we need to go to developer \
+tools and change the cookie value from 0 to 5 and we can get the password\
+The password for natas6 is 7mhjtShJAcld2NYbKHEadnhEwRn2P8VT
+
+## Level 5->6
