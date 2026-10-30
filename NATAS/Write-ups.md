@@ -48,4 +48,16 @@ tools and change the cookie value from 0 to 5 and we can get the password\
 ### The password for natas6 is 7mhjtShJAcld2NYbKHEadnhEwRn2P8VT
 
 ## Level 5->6
+In this level we need to send a secret code to get the password\
+First there is an option as *View Sourcecode* after checking it \
+i found an file path as **include "includes/secret.inc";** this means\
+There is an other path associated with this level so i added this path\
+to the website and i got the secret code and i got the flag.
 ### The password for natas7 is B1szg95UcTnrzwnF3i3TzYHlyYh8iBV0
+
+## Level 6->7 
+In this level after i login i found two links home and about \
+When i checked the source code for the about page i found this\
+**hint: password for webuser natas8 is in /etc/natas_webpass/natas8** \ 
+We need to add this path to the url and i got the password
+### The password for natas8 is  ugXL95KQmUAJJj6bMezOlBNDyI9Imwkc 
