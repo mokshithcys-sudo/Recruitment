@@ -12,3 +12,4 @@ After that, I started learning HTML and PHP to create web pages.
 I tested different code snippets and learned various concepts using HTML and PHP. \
 I got the required code from the website geeksforgeeks.org and i have modified according to my requirement.\
 I have also added the feature to set there own profile pic also.\
+<img width="290" height="418" alt="image" src="https://github.com/user-attachments/assets/a8f09681-2c2f-4fd5-9c96-ccf7012f108a" />
