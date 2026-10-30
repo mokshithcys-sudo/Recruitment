@@ -13,3 +13,4 @@ I tested different code snippets and learned various concepts using HTML and PHP
 I got the required code from the website geeksforgeeks.org and i have modified according to my requirement.\
 I have also added the feature to set there own profile pic also.\
 
+<img width="4732" height="988" alt="mermaid-diagram (1)" src="https://github.com/user-attachments/assets/97feed6b-86b4-4a38-9708-75b47f04b4bc" />
