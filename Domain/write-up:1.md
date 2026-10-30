@@ -12,4 +12,4 @@ After that, I started learning HTML and PHP to create web pages.
 I tested different code snippets and learned various concepts using HTML and PHP. \
 I got the required code from the website geeksforgeeks.org and i have modified according to my requirement.\
 I have also added the feature to set there own profile pic also.\
-<img width="2176" height="2642" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/de7caa04-440a-4209-9626-0a9d233eba49" />
+
