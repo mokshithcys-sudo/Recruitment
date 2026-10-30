@@ -2,16 +2,16 @@
 In this level i typed the given url in my browser\
 And logged in using the given credentials\
 And after i inspected the web page using the inspect 
-Method I found the password\
-The password for natas1 is **scfWG6qNEIdzqVyfRwEGXyNUfFZkZeQ7**
+Method I found the password
+### The password for natas1 is scfWG6qNEIdzqVyfRwEGXyNUfFZkZeQ7
 
 ## Level 0->1
 In this level i used the given url and logged in using the username given\
 And password got in the previous level.\
 Here it told that right clicking is blocked so\
 I used the command ctr + shift + I to unlock the developer option\
-From there i went to the elements center and found the password.\
-The password for natas2 is **vsDOxoXyq3wckCP1ZmTZ71ngIA606odB**
+From there i went to the elements center and found the password.
+### The password for natas2 is vsDOxoXyq3wckCP1ZmTZ71ngIA606odB
 
 ## Level 1->2
 In this level also i have used the same method to find the flag.\
@@ -19,8 +19,8 @@ That is ctr + shift + I to unlock the developer option and check for it.\
 There i saw a image file whose source is like files/pixel.org \
 Which means there is a files folder where somthing can be stored\
 But i dint find any other files in the files folder so i have changed the url a bit\
-That is http://natas2.natas.labs.overthewire.org/files/ and i found a txtt file named users.txt.\
-And found the password for natas3 **K30JrSRHzjxq3paUQuwozY4MNvmNFyhI**
+That is http://natas2.natas.labs.overthewire.org/files/ and i found a txt file named users.txt.
+### And found the password for natas3 K30JrSRHzjxq3paUQuwozY4MNvmNFyhI
 
 ## Level 2->3
 After logging in i opened the developer tools and found a clue that\
@@ -29,15 +29,15 @@ Here this clue means Google uses crawlers, and websites commonly use robots.txt 
 So after modifing the url a bit thaat is http://natas3.natas.labs.overthewire.org/robots.txt  \
 I got another clue that is User-agent: * Disallow: /s3cr3t/ which means\
 there can be somthing in that folder\
-and i have used url http://natas3.natas.labs.overthewire.org/robots.txt to get the password.\
-The password for natas4 is **JDrPnuZAKyl6MkiqQGFIddrqpvgOASth**
+and i have used url http://natas3.natas.labs.overthewire.org/robots.txt to get the password.
+### The password for natas4 is JDrPnuZAKyl6MkiqQGFIddrqpvgOASth
 
 ## Level 3->4
 In this level the main gole is to change the responce header and by doing that we can get our flag\
 So first i opened the developer page and went to network page and checked the header option.\
 There i find **Referer: http://natas4.natas.labs.overthewire.org/** and i have sent a new request.\
 In that request i modified the referer to natas5 and checked the responce and i got my flag.\
-The password for natas5 is e4z2Noy3oqwPJUWzJH0dseN67Cn1sy2M
+### The password for natas5 is e4z2Noy3oqwPJUWzJH0dseN67Cn1sy2M
 
 ## Level 4->5
 In this we need to know about **cookies** and their Manipulation\
@@ -45,6 +45,7 @@ So in short cookie is a small piece of data that a website stores \
 in your browser to remember information about you.\
 So we need to change it in this level so we need to go to developer \
 tools and change the cookie value from 0 to 5 and we can get the password\
-The password for natas6 is 7mhjtShJAcld2NYbKHEadnhEwRn2P8VT
+### The password for natas6 is 7mhjtShJAcld2NYbKHEadnhEwRn2P8VT
 
 ## Level 5->6
+### The password for natas7 is B1szg95UcTnrzwnF3i3TzYHlyYh8iBV0
